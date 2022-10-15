@@ -5,12 +5,12 @@ This a personal project for practicing, that I made a clone of twitter app using
 
 1. You need a computer with xcode 
 2. You need to install [cocoapods](https://cocoapods.org)
-3. Create a your own [FireBase Project](https://firebase.google.com)
-
-
 ```bash
 sudo gem install cocoapods
 ```
+
+3. Create a your own [FireBase Project](https://firebase.google.com)
+
 
 ## Installation
 
@@ -20,11 +20,13 @@ sudo gem install cocoapods
 pod install 
 ```
 2. Open AirportSearch.xcworkspace
-3. Add yoour own GoogleService-Info.plist
-
 ```bash
 open AirportSearch.xcworkspace
 ```
+
+3. Add yoour own GoogleService-Info.plist
+
+
 
 ## Images
 <p float="left">
