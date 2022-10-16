@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Boring-Sans-A-Bold-Italic.ttf</string>
+		<string>Boring-Sans-A-Bold.ttf</string>
+		<string>Boring-Sans-A-Heavy-Italic.ttf</string>
+		<string>Boring-Sans-A-Heavy.ttf</string>
+		<string>Boring-Sans-A-Italic.ttf</string>
+		<string>Boring-Sans-A-Light-Italic.ttf</string>
+		<string>Boring-Sans-A-Light.ttf</string>
+		<string>Boring-Sans-A-Medium-Italic.ttf</string>
+		<string>Boring-Sans-A-Medium.ttf</string>
+		<string>Boring-Sans-A-Regular.ttf</string>
+	</array>
+</dict>
+</plist>
