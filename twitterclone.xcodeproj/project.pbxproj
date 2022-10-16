@@ -13,6 +13,11 @@
 		8A745A4028FB317D00E6BFC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A745A3F28FB317D00E6BFC2 /* ContentView.swift */; };
 		8A745A4228FB317F00E6BFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A745A4128FB317F00E6BFC2 /* Assets.xcassets */; };
 		8A745A4528FB317F00E6BFC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A745A4428FB317F00E6BFC2 /* Preview Assets.xcassets */; };
+		8A7E481028FB841A00BF442F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E480F28FB841A00BF442F /* MainView.swift */; };
+		8A7E481228FB855D00BF442F /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E481128FB855D00BF442F /* Logo.swift */; };
+		8A7E481428FB892100BF442F /* ButtonTxtLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E481328FB892100BF442F /* ButtonTxtLink.swift */; };
+		8A7E481628FBA20300BF442F /* ButtonNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E481528FBA20300BF442F /* ButtonNavigation.swift */; };
+		8A7E481828FBA98200BF442F /* SingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E481728FBA98200BF442F /* SingUp.swift */; };
 		8A85CFFD28FB78B200299851 /* TextP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A85CFFC28FB78B200299851 /* TextP.swift */; };
 		8AC604E228FB4C7F00DAF5FA /* Boring-Sans-A-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AC604D828FB4C7F00DAF5FA /* Boring-Sans-A-Light.ttf */; };
 		8AC604E328FB4C7F00DAF5FA /* Boring-Sans-A-Light-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AC604D928FB4C7F00DAF5FA /* Boring-Sans-A-Light-Italic.ttf */; };
@@ -35,6 +40,11 @@
 		8A745A3F28FB317D00E6BFC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A745A4128FB317F00E6BFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A745A4428FB317F00E6BFC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A7E480F28FB841A00BF442F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8A7E481128FB855D00BF442F /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		8A7E481328FB892100BF442F /* ButtonTxtLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTxtLink.swift; sourceTree = "<group>"; };
+		8A7E481528FBA20300BF442F /* ButtonNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNavigation.swift; sourceTree = "<group>"; };
+		8A7E481728FBA98200BF442F /* SingUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUp.swift; sourceTree = "<group>"; };
 		8A85CFFC28FB78B200299851 /* TextP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextP.swift; sourceTree = "<group>"; };
 		8ABE27AA157D7538EC374C3B /* Pods_twitterclone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twitterclone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC604D728FB49BC00DAF5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +93,7 @@
 		8A745A3C28FB317D00E6BFC2 /* twitterclone */ = {
 			isa = PBXGroup;
 			children = (
+				8A7E480E28FB83C400BF442F /* Views */,
 				8A85CFFB28FB787000299851 /* Components */,
 				8AC604D728FB49BC00DAF5FA /* Info.plist */,
 				8AC604C228FB471C00DAF5FA /* Fonts */,
@@ -103,10 +114,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8A7E480E28FB83C400BF442F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A7E480F28FB841A00BF442F /* MainView.swift */,
+				8A7E481728FBA98200BF442F /* SingUp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8A85CFFB28FB787000299851 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				8A85CFFC28FB78B200299851 /* TextP.swift */,
+				8A7E481128FB855D00BF442F /* Logo.swift */,
+				8A7E481328FB892100BF442F /* ButtonTxtLink.swift */,
+				8A7E481528FBA20300BF442F /* ButtonNavigation.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -271,7 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A745A4028FB317D00E6BFC2 /* ContentView.swift in Sources */,
+				8A7E481628FBA20300BF442F /* ButtonNavigation.swift in Sources */,
+				8A7E481228FB855D00BF442F /* Logo.swift in Sources */,
+				8A7E481028FB841A00BF442F /* MainView.swift in Sources */,
 				8A85CFFD28FB78B200299851 /* TextP.swift in Sources */,
+				8A7E481828FBA98200BF442F /* SingUp.swift in Sources */,
+				8A7E481428FB892100BF442F /* ButtonTxtLink.swift in Sources */,
 				8A745A3E28FB317D00E6BFC2 /* twittercloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

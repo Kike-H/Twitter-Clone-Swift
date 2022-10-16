@@ -25,16 +25,20 @@ enum FontWeightTxtP: String {
 
 struct TextP: View {
     let sizeDefault: CGFloat = 25
+    let lineLimitDefault: Int = 4
     let fontWeightDefault: FontWeightTxtP = .regular
     
     var txt: String
     var size: CGFloat?
     var fontWeight: FontWeightTxtP?
-    
+    var fontColor: Color?
+    var lineLimit: Int?
     
     var body: some View {
         Text("\(txt)")
             .font(.custom(fontWeight?.rawValue ?? fontWeightDefault.rawValue, size: size ?? sizeDefault))
+            .lineLimit(lineLimit ?? lineLimitDefault)
+            .foregroundColor(fontColor)
     }
 }
 
